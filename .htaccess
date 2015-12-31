@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule ^/mail/config-v1\.1\.xml(\?)?(.*)$ /MultiDomainGen.php [L]
+RewriteRule ^/mail/config-v1\.1\.xml\?emailaddress=(.*)$ /MultiDomainGen.php?($1) [L]
